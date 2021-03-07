@@ -1,0 +1,284 @@
+
+
+@media (max-width:991px) {
+
+    .accessories-img {
+        bottom: 0px;
+    }
+
+
+    .list-unstyled {
+        margin-left: 10px;
+    }
+    .navbar-nav .nav-link {
+        margin-right: 0px;
+    }
+   
+
+
+    .main-title{
+        text-align: center;
+    }
+
+    .car-price {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .feature-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-menu li {
+        margin: 0px 20px;
+    }
+
+    #engine .title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .engine{
+        margin-top: 40px;
+    }
+
+    .engine img{
+        width: 250px;
+    }
+
+    #finddealer .title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #finddealer form {
+        justify-content: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    .f-box{
+        margin-bottom: 40px;
+    }
+
+    .widget-info {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .widget-info svg:not(:root).svg-inline--fa {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: unset;
+    margin-bottom: 20px;
+}
+
+.usefullinks li{
+    padding-left: 0px;
+}
+
+.usefullinks li svg:not(:root).svg-inline--fa {
+    display: none;
+}
+
+
+.follow ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+    .g-img img {
+        height: auto;
+    }
+
+    .accessories-img {
+        bottom: 0px;
+    }
+
+     .navbar.fixed-nav{
+        display: block;
+    }
+
+    .navbar-nav{
+        background-color: white;
+       position: relative;
+       z-index: 4;
+       border-radius: 20px;
+    }
+
+    .navbar-nav .nav-link{
+        color: black;
+    }
+
+    #navmenu{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        background-color: red;
+    }
+
+    .nav-link::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-link.active::after{
+        display: none;
+    }
+
+    .nav-link.active{
+        color: red !important;
+    }
+
+
+.feature-menu li .f-item {
+    font-size: 24px;
+}
+.f-item::before {
+    top: 17px;
+}
+
+.e-img img {
+    height: 260px;
+}
+
+.e-box {
+    margin-bottom: 40px;
+}
+
+.e-box img {
+    width: 15%;
+}
+
+.engine {
+    margin-top: 10px;
+}
+
+}
+
+
+@media (max-width:575px) {
+
+    section {
+        padding: 40px 0px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .car-slider {
+        margin-top: 30px;
+    }
+
+    .f-item::before {
+        top: 14px;
+    }
+
+    .f-item.active::before {
+        width: 12px;
+    }
+
+    .f-item.active {
+        font-weight: 600 !important;
+        margin-left: 20px !important;
+    }
+
+    .feature-menu li .f-item {
+        font-size: 14px;
+    }
+
+    .feature-menu li .f-item {
+        font-weight: 600;
+    }
+
+    .feature-img {
+        margin-top: 30px;
+    }
+
+    .feature-menu li {
+        margin: 0px 10px;
+    }
+
+    body{
+        justify-content: center;
+    }
+
+
+    .title h1 {
+        font-size: 42px;
+    }
+
+    .title p {
+        font-size: 16px;
+    }
+
+    .read-btn {
+        margin-top: 0px;
+    }
+
+
+    .play-btn svg:not(:root).svg-inline--fa {
+        font-size: 20px;
+        position: absolute;
+        top: 15px;
+        left: 18px;
+        color: white;
+    }
+
+    .play-btn {
+        position: relative;
+        background-color: red;
+        height: 50px;
+        top: 19px;
+        width: 50px;
+        border-radius: 50px;
+        margin-top: 0px;
+        margin-left: 20px;
+        text-align: center;
+        display: inline-flex;
+    }
+
+    .copyright b {
+        color: red;
+        display: block;
+    }
+
+
+    .main-title h3 {
+        color: white;
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .main-title h3 strong {
+        font-weight: 800;
+        font-size: 52px;
+    }
+    .main-title p {
+        color: white;
+        font-size: 18px;
+    }
+    #main-section {
+        padding: 140px 0px 60px 0px;
+    }
+
+    .blackbtn {
+        padding: 10px 60px;
+    }
+
+    
+}
